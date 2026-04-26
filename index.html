@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <title>中奖概率倍儿高</title>
+  <link rel="icon" type="image/png" href="assets/qietu.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <section class="game-shell" aria-label="抽奖转盘小游戏">
+      <img class="background" src="assets/Back.png" alt="">
+      <div class="hand-layer" aria-hidden="true">
+        <img id="hand" class="hand" src="assets/Hands.png" alt="">
+      </div>
+      <button id="actionButton" class="action-button is-stop" type="button" aria-label="停止转盘">
+        <img id="actionImage" src="assets/Stop.png" alt="">
+      </button>
+    </section>
+  </main>
+
+  <audio id="mainAudio" src="assets/Main.mp3" loop preload="auto"></audio>
+  <audio id="stopAudio" src="assets/Stop.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
